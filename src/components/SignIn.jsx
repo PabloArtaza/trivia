@@ -9,7 +9,7 @@ import Container from './elements/Container';
 import "firebase/firestore";
 import {db} from '../firebase/firebase'
 import { addDoc, collection } from 'firebase/firestore';
-import { async } from '@firebase/util';
+
 
  
 export const SignIN =({className}) => {
