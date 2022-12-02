@@ -18,7 +18,7 @@ export const SignIN =({className}) => {
     const [ email, setEmail] = useState("")
     const navigate = useNavigate()
 
-    const userCollection = collection(db, "users")
+    const userCollection = collection(db, "users1")
 
     const user = async (e) => {
         e.preventDefault()

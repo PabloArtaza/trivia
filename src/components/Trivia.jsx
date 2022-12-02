@@ -12,7 +12,7 @@ const Trivia = ({className}) => {
   const [preguntaActual, setPreguntaActual] = useState(0);
   const [puntuación, setPuntuación] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const [tiempoRestante, setTiempoRestante] = useState(10);
+  const [tiempoRestante, setTiempoRestante] = useState(15);
   const [areDisabled, setAreDisabled] = useState(false);
   const [answersShown, setAnswersShown] = useState(false);
 
@@ -29,9 +29,9 @@ const Trivia = ({className}) => {
         setIsFinished(true);
       } else {
         setPreguntaActual(preguntaActual + 1);
-        setTiempoRestante(20);
+        setTiempoRestante(15);
       }
-    }, 500);
+    }, 1200);
   }
   
   useEffect(() => {
@@ -154,6 +154,7 @@ export default styled(Trivia)`
     @media screen and (max-width:768px){
       display: flow-root;
      padding: 130px;
+     min-width: fit-content;
     }
     @media screen and (min-width:768px) and (max-width:992px) {
       display: flow-root;

@@ -5,6 +5,9 @@ export const Span = css`
     display: flex;
     @media screen and (max-width:768px){
       font-size: 0.6rem;
+      width: 200px;
+      display: flex;
+      justify-content: center;
     }
     @media screen and (min-width:768px) and (max-width:992px) {
         font-size: 0.5rem;

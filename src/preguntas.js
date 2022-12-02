@@ -1,137 +1,137 @@
 const preguntas=[ 
 
-    { titulo: "¿En cual continente esta ubicado Qatar?",
+    { titulo: "¿En que país se encuentra el Río más caudaloso del mundo?",
      opciones: [
-       { textoRespuesta: "Asia", isCorrect: true },
-       { textoRespuesta: "América", isCorrect: false },
-       { textoRespuesta: "Oceanía", isCorrect: false },
-       { textoRespuesta: "Europa", isCorrect: false },
+       { textoRespuesta: "Argentina", isCorrect: false },
+       { textoRespuesta: "Brasil", isCorrect: true },
+       { textoRespuesta: "Uruguay", isCorrect: false },
+       { textoRespuesta: "Peru", isCorrect: false },
      ]
      },
   
-     { titulo: "¿Cuál es la capital de Qatar?",
+     { titulo: "¿Quién escribio la obra llamada “Poeta en Nueva York”?",
      opciones: [
-       { textoRespuesta: "Rayán", isCorrect: false},
-       { textoRespuesta: "Al Wakrah", isCorrect: false },
-       { textoRespuesta: "Doha", isCorrect: true },
-       { textoRespuesta: "Lusail", isCorrect: false },
+       { textoRespuesta: "Isabel Allende", isCorrect: false},
+       { textoRespuesta: "Federico García Lorca", isCorrect: true },
+       { textoRespuesta: "Gabriel Garcia Márquez", isCorrect: false },
+       { textoRespuesta: "Julio Cortázar", isCorrect: false },
      ]
      },
   
-     { titulo: "¿Cuántos equipos participan del mudial?",
+     { titulo: "¿Qué país está entre Perú y Colombia?",
      opciones: [
-       { textoRespuesta: "32", isCorrect: true },
-       { textoRespuesta: "34", isCorrect: false },
-       { textoRespuesta: "30", isCorrect: false },
-       { textoRespuesta: "36", isCorrect: false },
+       { textoRespuesta: "Ecuador", isCorrect: true },
+       { textoRespuesta: "Chile", isCorrect: false },
+       { textoRespuesta: "Brasil", isCorrect: false },
+       { textoRespuesta: "Venezuela", isCorrect: false },
      ]
      },
   
-   { titulo: "¿Cuál es la capital de Portugal?",
+   { titulo: "¿Cómo se llamaba el caballo de la novela Española “Don quijote de la mancha”?",
      opciones: [
-       { textoRespuesta: "Zagreb", isCorrect: false },
-       { textoRespuesta: "Berlin", isCorrect: false },
-       { textoRespuesta: "Lisboa", isCorrect: true },
-       { textoRespuesta: "Estocolmo", isCorrect: false },
+       { textoRespuesta: "Platero", isCorrect: false },
+       { textoRespuesta: "Rocinante", isCorrect: true },
+       { textoRespuesta: "Tiro al blanco", isCorrect: false },
+       { textoRespuesta: "Bucéfalo", isCorrect: false },
      ]
      },
   
-     { titulo: "¿Cuál es la fecha de la independencia de Argentina?",
+     { titulo: "¿El estrecho de Gibraltar separa España de qué país?",
      opciones: [
-       { textoRespuesta: "El 25 de mayo de 1810", isCorrect: false },
-       { textoRespuesta: "El 9 de julio de 1816", isCorrect: true },
-       { textoRespuesta: "El 20 de junio de 1820", isCorrect: false },
-       { textoRespuesta: "El 17 de agosto de 1850", isCorrect: false },
+       { textoRespuesta: "Dinamarca", isCorrect: false },
+       { textoRespuesta: "Francia", isCorrect: false },
+       { textoRespuesta: "Marruecos", isCorrect: true },
+       { textoRespuesta: "Alemania", isCorrect: false },
      ]
      },
   
-     { titulo: "¿Cuál es el idioma oficial de Senegal?",
+     { titulo: "¿Cuál es el océano más grande del mundo?",
      opciones: [
-       { textoRespuesta: "Español", isCorrect: false },
-       { textoRespuesta: "Senegalés", isCorrect: false },
-       { textoRespuesta: "Inglés", isCorrect: false },
-       { textoRespuesta: "Francés", isCorrect: true },
+       { textoRespuesta: "Pacífico", isCorrect: true },
+       { textoRespuesta: "Índico", isCorrect: false },
+       { textoRespuesta: "Ártico", isCorrect: false },
+       { textoRespuesta: "Atlántico", isCorrect: false },
      ]
      },
   
-     { titulo: "La caida del muro del Berlin se produce en el año...",
+     { titulo: "¿Cuál es la capital de Croacia?",
      opciones: [
-       { textoRespuesta: "1990", isCorrect: false },
-       { textoRespuesta: "1989", isCorrect: true },
-       { textoRespuesta: "1988", isCorrect: false },
-       { textoRespuesta: "1992", isCorrect: false },
+       { textoRespuesta: "Copenhague", isCorrect: false },
+       { textoRespuesta: "Varsovia", isCorrect: false },
+       { textoRespuesta: "Ámsterdam", isCorrect: false },
+       { textoRespuesta: "Zagreb", isCorrect: true },
      ]
      },
   
-     { titulo: "¿Por qué hay 50 estrellas en la bandera de Estados Unidos?",
+     { titulo: "¿Dónde se inventó la pizza hawaiana?",
      opciones: [
-       { textoRespuesta: "Una estrella por cada estado", isCorrect: true },
-       { textoRespuesta: "Sólo cabían 50", isCorrect: false },
-       { textoRespuesta: "Es un número simbólico para Estados Unidos", isCorrect: false },
-       { textoRespuesta: "50 personas la elaboraron", isCorrect: false },
+       { textoRespuesta: "Canadá", isCorrect: true },
+       { textoRespuesta: "Hawái", isCorrect: false },
+       { textoRespuesta: "Costa Rica", isCorrect: false },
+       { textoRespuesta: "Italia", isCorrect: false },
      ]
      },
 
-     { titulo: "¿En que país esta el museo del Louvre? Donde se encuentra la pintura Mona Lisa del pintor Leonardo Da Vinci",
+     { titulo: "¿Qué país ganó el mundial de 1966",
      opciones: [
        { textoRespuesta: "Italia", isCorrect: false },
        { textoRespuesta: "España", isCorrect: false },
-       { textoRespuesta: "Francia", isCorrect: true },
-       { textoRespuesta: "Alemania", isCorrect: false },
+       { textoRespuesta: "Francia", isCorrect: false },
+       { textoRespuesta: "Inglaterra", isCorrect: true },
      ]
      },
 
-     { titulo: "¿En que país se jugo el mundial de año 1986?",
+     { titulo: "El gazpacho es una sopa fría que se conoce en el mundo como plato nacional de:?",
      opciones: [
-       { textoRespuesta: "Estados Unidos", isCorrect: false },
-       { textoRespuesta: "Alemania", isCorrect: false },
-       { textoRespuesta: "Mexico", isCorrect: true },
+       { textoRespuesta: "México", isCorrect: false },
        { textoRespuesta: "Argentina", isCorrect: false },
+       { textoRespuesta: "España", isCorrect: true },
+       { textoRespuesta: "Italia", isCorrect: false },
      ]
      },
      
-     { titulo: "¿Cuándo comenzó la Revolución Francesa?",
+     { titulo: "¿En qué año nació Lionel Messi?",
      opciones: [
-       { textoRespuesta: "En 1810", isCorrect: false },
-       { textoRespuesta: "En 1789", isCorrect: true },
-       { textoRespuesta: "En 1842", isCorrect: false },
-       { textoRespuesta: "En 1880", isCorrect: false },
+       { textoRespuesta: "1988", isCorrect: false },
+       { textoRespuesta: "1987", isCorrect: true },
+       { textoRespuesta: "1986", isCorrect: false },
+       { textoRespuesta: "1989", isCorrect: false },
      ]
      },
 
-     { titulo: "¿El meat pie, es una plato tipico de ..?",
+     { titulo: "¿En dónde se encuentra el monte Fuji?",
      opciones: [
-       { textoRespuesta: "Estados Unidos", isCorrect: false },
-       { textoRespuesta: "Dinamarca", isCorrect: false },
-       { textoRespuesta: "Australia", isCorrect: true },
        { textoRespuesta: "Suiza", isCorrect: false },
+       { textoRespuesta: "Gales", isCorrect: false },
+       { textoRespuesta: "Corea del Sur", isCorrect: false },
+       { textoRespuesta: "Japón", isCorrect: true },
      ]
      },
 
-     { titulo: "¿Dónde se jugo el primer mundial?",
+     { titulo: "Napoleón Bonaparte fue pionero de la revolución de..",
      opciones: [
-       { textoRespuesta: "Italia", isCorrect: true },
-       { textoRespuesta: "Brasil", isCorrect: false },
-       { textoRespuesta: "Uruguay", isCorrect: true },
-       { textoRespuesta: "Francia", isCorrect: false },
+       { textoRespuesta: "Francia", isCorrect: true },
+       { textoRespuesta: "Argentina", isCorrect: false },
+       { textoRespuesta: "España", isCorrect: false },
+       { textoRespuesta: "Portugal", isCorrect: false },
      ]
      },
 
-     { titulo: "¿Cuál es el actual presidente de España?",
+     { titulo: "¿Quién es el máximo goleador de la historia de los mundiales?",
      opciones: [
-       { textoRespuesta: "Pedro Sánchez", isCorrect: true },
-       { textoRespuesta: "Felipe González", isCorrect: false },
-       { textoRespuesta: "Mariano Rajoy", isCorrect: false },
-       { textoRespuesta: "José María Aznar", isCorrect: false },
+       { textoRespuesta: "Gabriel Batistuta", isCorrect: false },
+       { textoRespuesta: "Pelé", isCorrect: false },
+       { textoRespuesta: "Miroslav Klose", isCorrect: true },
+       { textoRespuesta: "Gerd Müller", isCorrect: false },
      ]
      },
 
-     { titulo: "La moneda oficial de Japón es:",
+     { titulo: "¿A qué país pertenece Groenlandia?:",
      opciones: [
-       { textoRespuesta: "Yuan", isCorrect: false },
-       { textoRespuesta: "Yin", isCorrect: false },
-       { textoRespuesta: "Yan", isCorrect: false },
-       { textoRespuesta: "Yen", isCorrect: true },
+       { textoRespuesta: "Suiza", isCorrect: false },
+       { textoRespuesta: "Croacia", isCorrect: false },
+       { textoRespuesta: "Dinamarca", isCorrect: true },
+       { textoRespuesta: "Inglaterra", isCorrect: false },
      ]
      },
 
