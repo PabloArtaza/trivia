@@ -1,137 +1,137 @@
 const preguntas=[ 
 
-    { titulo: "¿En que país se encuentra el Río más caudaloso del mundo?",
+    { titulo: "¿Cuál es el sistema de gobierno en Argentina?",
      opciones: [
-       { textoRespuesta: "Argentina", isCorrect: false },
-       { textoRespuesta: "Brasil", isCorrect: true },
+       { textoRespuesta: "República representativa", isCorrect: true },
+       { textoRespuesta: "Dicatdura", isCorrect: false },
+       { textoRespuesta: "Monarquía constitucional", isCorrect: false },
+       { textoRespuesta: "Ninguna de las anteriores", isCorrect: false },
+     ]
+     },
+  
+     { titulo: "¿Cómo se autodenominó la dictadura militar que gobernó el país en los años 70?",
+     opciones: [
+       { textoRespuesta: "Reorganización nacional argentina", isCorrect: false},
+       { textoRespuesta: "Proceso de Reorganización Nacional", isCorrect: true },
+       { textoRespuesta: "Gobierno Nacional Militar", isCorrect: false },
+       { textoRespuesta: "Alianza Nacional Militar Argentina", isCorrect: false },
+     ]
+     },
+  
+     { titulo: "¿Quién fue el presidente de la primera junta de gobierno?",
+     opciones: [
+       { textoRespuesta: "Saavedra", isCorrect: true },
+       { textoRespuesta: "Moreno", isCorrect: false },
+       { textoRespuesta: "San Martin", isCorrect: false },
+       { textoRespuesta: "Belgrano", isCorrect: false },
+     ]
+     },
+  
+   { titulo: "Justo José de Urquiza fue Gobernador de:",
+     opciones: [
+       { textoRespuesta: "Neuquén", isCorrect: false },
+       { textoRespuesta: "Corrientes", isCorrect: false },
+       { textoRespuesta: "Entre Ríos", isCorrect: true },
+       { textoRespuesta: "Salta", isCorrect: false },
+     ]
+     },
+  
+     { titulo: "¿Cuándo y donde se sanciono la Constitución Argentina?",
+     opciones: [
+       { textoRespuesta: "Corrientes (1852)", isCorrect: false },
+       { textoRespuesta: "Tucuman (1853)", isCorrect: false },
+       { textoRespuesta: "Buenos Aires (1854)", isCorrect: false },
+       { textoRespuesta: "Santa Fe (1853)", isCorrect: true },
+     ]
+     },
+  
+     { titulo: "¿En qué provincia se encuentran los Esteros del Iberá",
+     opciones: [
+       { textoRespuesta: "Santa Cruz", isCorrect: false },
+       { textoRespuesta: "Corrientes", isCorrect: true },
+       { textoRespuesta: "Chaco", isCorrect: false },
+       { textoRespuesta: "Entre Ríos", isCorrect: false },
+     ]
+     },
+  
+     { titulo: "¿Dónde se celebra la Fiesta Nacional del Sulky?",
+     opciones: [
+       { textoRespuesta: "San Antonio de Areco, Buenos Aires", isCorrect: false },
+       { textoRespuesta: "Simoca, Tucumán", isCorrect: true },
+       { textoRespuesta: "Cruz del Eje, Córdoba", isCorrect: false },
+       { textoRespuesta: "Cerrillos, Salta", isCorrect: false },
+     ]
+     },
+  
+     { titulo: "¿Con qué país limítrofe tuvo un conflicto Argentina sobre la soberanía de las islas Picton, Nueva y Lennox en 1977?",
+     opciones: [
+       { textoRespuesta: "Chile", isCorrect: true },
+       { textoRespuesta: "Paraguay", isCorrect: false },
        { textoRespuesta: "Uruguay", isCorrect: false },
-       { textoRespuesta: "Peru", isCorrect: false },
-     ]
-     },
-  
-     { titulo: "¿Quién escribio la obra llamada “Poeta en Nueva York”?",
-     opciones: [
-       { textoRespuesta: "Isabel Allende", isCorrect: false},
-       { textoRespuesta: "Federico García Lorca", isCorrect: true },
-       { textoRespuesta: "Gabriel Garcia Márquez", isCorrect: false },
-       { textoRespuesta: "Julio Cortázar", isCorrect: false },
-     ]
-     },
-  
-     { titulo: "¿Qué país está entre Perú y Colombia?",
-     opciones: [
-       { textoRespuesta: "Ecuador", isCorrect: true },
-       { textoRespuesta: "Chile", isCorrect: false },
        { textoRespuesta: "Brasil", isCorrect: false },
-       { textoRespuesta: "Venezuela", isCorrect: false },
-     ]
-     },
-  
-   { titulo: "¿Cómo se llamaba el caballo de la novela Española “Don quijote de la mancha”?",
-     opciones: [
-       { textoRespuesta: "Platero", isCorrect: false },
-       { textoRespuesta: "Rocinante", isCorrect: true },
-       { textoRespuesta: "Tiro al blanco", isCorrect: false },
-       { textoRespuesta: "Bucéfalo", isCorrect: false },
-     ]
-     },
-  
-     { titulo: "¿El estrecho de Gibraltar separa España de qué país?",
-     opciones: [
-       { textoRespuesta: "Dinamarca", isCorrect: false },
-       { textoRespuesta: "Francia", isCorrect: false },
-       { textoRespuesta: "Marruecos", isCorrect: true },
-       { textoRespuesta: "Alemania", isCorrect: false },
-     ]
-     },
-  
-     { titulo: "¿Cuál es el océano más grande del mundo?",
-     opciones: [
-       { textoRespuesta: "Pacífico", isCorrect: true },
-       { textoRespuesta: "Índico", isCorrect: false },
-       { textoRespuesta: "Ártico", isCorrect: false },
-       { textoRespuesta: "Atlántico", isCorrect: false },
-     ]
-     },
-  
-     { titulo: "¿Cuál es la capital de Croacia?",
-     opciones: [
-       { textoRespuesta: "Copenhague", isCorrect: false },
-       { textoRespuesta: "Varsovia", isCorrect: false },
-       { textoRespuesta: "Ámsterdam", isCorrect: false },
-       { textoRespuesta: "Zagreb", isCorrect: true },
-     ]
-     },
-  
-     { titulo: "¿Dónde se inventó la pizza hawaiana?",
-     opciones: [
-       { textoRespuesta: "Canadá", isCorrect: true },
-       { textoRespuesta: "Hawái", isCorrect: false },
-       { textoRespuesta: "Costa Rica", isCorrect: false },
-       { textoRespuesta: "Italia", isCorrect: false },
      ]
      },
 
-     { titulo: "¿Qué país ganó el mundial de 1966",
+     { titulo: "¿Cuántas veces fue presidente Peron",
      opciones: [
-       { textoRespuesta: "Italia", isCorrect: false },
-       { textoRespuesta: "España", isCorrect: false },
-       { textoRespuesta: "Francia", isCorrect: false },
-       { textoRespuesta: "Inglaterra", isCorrect: true },
+       { textoRespuesta: "1", isCorrect: false },
+       { textoRespuesta: "2", isCorrect: false },
+       { textoRespuesta: "3", isCorrect: true },
+       { textoRespuesta: "4", isCorrect: false },
      ]
      },
 
-     { titulo: "El gazpacho es una sopa fría que se conoce en el mundo como plato nacional de:?",
+     { titulo: "¿Qué comida no le gusta a Mafalda??",
      opciones: [
-       { textoRespuesta: "México", isCorrect: false },
-       { textoRespuesta: "Argentina", isCorrect: false },
-       { textoRespuesta: "España", isCorrect: true },
-       { textoRespuesta: "Italia", isCorrect: false },
+       { textoRespuesta: "Pastas", isCorrect: false },
+       { textoRespuesta: "Verduras", isCorrect: false },
+       { textoRespuesta: "Sopa", isCorrect: true },
+       { textoRespuesta: "Milanesas", isCorrect: false },
      ]
      },
      
-     { titulo: "¿En qué año nació Lionel Messi?",
+     { titulo: "¿Cómo se llama la avenida porteña dónde se pueden comer las pizzas más tradicionales de Buenos Aires?",
      opciones: [
-       { textoRespuesta: "1988", isCorrect: false },
-       { textoRespuesta: "1987", isCorrect: true },
-       { textoRespuesta: "1986", isCorrect: false },
-       { textoRespuesta: "1989", isCorrect: false },
+       { textoRespuesta: "Avenida 9 de Julio", isCorrect: false },
+       { textoRespuesta: "Avenida de Mayo", isCorrect: false },
+       { textoRespuesta: "Avenida Corrientes", isCorrect: true },
+       { textoRespuesta: "Avenida Del Libertador", isCorrect: false },
      ]
      },
 
-     { titulo: "¿En dónde se encuentra el monte Fuji?",
+     { titulo: "¿Cuál de estos famosos autores NO es argentino?",
      opciones: [
-       { textoRespuesta: "Suiza", isCorrect: false },
-       { textoRespuesta: "Gales", isCorrect: false },
-       { textoRespuesta: "Corea del Sur", isCorrect: false },
-       { textoRespuesta: "Japón", isCorrect: true },
+       { textoRespuesta: "Julio Cortazar", isCorrect: false },
+       { textoRespuesta: "Jorge Luis Borges", isCorrect: false },
+       { textoRespuesta: "Alejandra Pizarnik", isCorrect: false },
+       { textoRespuesta: "Pablo Neruda", isCorrect: true },
      ]
      },
 
-     { titulo: "Napoleón Bonaparte fue pionero de la revolución de..",
+     { titulo: "¿Cuál fue el primer presidente de Argentina?",
      opciones: [
-       { textoRespuesta: "Francia", isCorrect: true },
-       { textoRespuesta: "Argentina", isCorrect: false },
-       { textoRespuesta: "España", isCorrect: false },
-       { textoRespuesta: "Portugal", isCorrect: false },
+       { textoRespuesta: "Rivadavia", isCorrect: true },
+       { textoRespuesta: "Laprida", isCorrect: false },
+       { textoRespuesta: "Balcarce", isCorrect: false },
+       { textoRespuesta: "Moreno", isCorrect: false },
      ]
      },
 
-     { titulo: "¿Quién es el máximo goleador de la historia de los mundiales?",
+     { titulo: "¿Cuál es el deporte nacional de Argentina?",
      opciones: [
-       { textoRespuesta: "Gabriel Batistuta", isCorrect: false },
-       { textoRespuesta: "Pelé", isCorrect: false },
-       { textoRespuesta: "Miroslav Klose", isCorrect: true },
-       { textoRespuesta: "Gerd Müller", isCorrect: false },
+       { textoRespuesta: "Pato", isCorrect: true },
+       { textoRespuesta: "Polo", isCorrect: false },
+       { textoRespuesta: "Futbol", isCorrect: false },
+       { textoRespuesta: "Tenis", isCorrect: false },
      ]
      },
 
-     { titulo: "¿A qué país pertenece Groenlandia?:",
+     { titulo: "¿Cuántos premios Nobel han sido ganados por argentinos?:",
      opciones: [
-       { textoRespuesta: "Suiza", isCorrect: false },
-       { textoRespuesta: "Croacia", isCorrect: false },
-       { textoRespuesta: "Dinamarca", isCorrect: true },
-       { textoRespuesta: "Inglaterra", isCorrect: false },
+       { textoRespuesta: "3", isCorrect: false },
+       { textoRespuesta: "4", isCorrect: false },
+       { textoRespuesta: "5", isCorrect: true },
+       { textoRespuesta: "6", isCorrect: false },
      ]
      },
 
