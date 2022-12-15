@@ -3,7 +3,7 @@ const preguntas=[
     { titulo: "¿Cuál es el sistema de gobierno en Argentina?",
      opciones: [
        { textoRespuesta: "República representativa", isCorrect: true },
-       { textoRespuesta: "Dicatdura", isCorrect: false },
+       { textoRespuesta: "Dictadura", isCorrect: false },
        { textoRespuesta: "Monarquía constitucional", isCorrect: false },
        { textoRespuesta: "Ninguna de las anteriores", isCorrect: false },
      ]
@@ -81,7 +81,7 @@ const preguntas=[
      ]
      },
 
-     { titulo: "¿Qué comida no le gusta a Mafalda??",
+     { titulo: "¿Qué comida no le gusta a Mafalda?",
      opciones: [
        { textoRespuesta: "Pastas", isCorrect: false },
        { textoRespuesta: "Verduras", isCorrect: false },
