@@ -72,12 +72,12 @@ const preguntas=[
      ]
      },
 
-     { titulo: "¿Cuántas veces fue presidente Peron",
+     { titulo: "¿Cuántos repulgues tiene la empanada salteña?",
      opciones: [
-       { textoRespuesta: "1", isCorrect: false },
-       { textoRespuesta: "2", isCorrect: false },
-       { textoRespuesta: "3", isCorrect: true },
-       { textoRespuesta: "4", isCorrect: false },
+       { textoRespuesta: "11", isCorrect: false },
+       { textoRespuesta: "12", isCorrect: false },
+       { textoRespuesta: "13", isCorrect: true },
+       { textoRespuesta: "14", isCorrect: false },
      ]
      },
 
